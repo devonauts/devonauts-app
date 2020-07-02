@@ -1,0 +1,27 @@
+.main-footer {
+    color:white;
+    background: rgb(46,47,51);
+    background: radial-gradient(circle, rgba(46,47,51,1) 72%, rgba(40,43,51,1) 95%);
+    padding-top: 3em;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
+ul li a {
+    color: rgb(102, 102, 102);
+
+    &:hover {
+        color:#ffffff;
+        text-decoration: none;
+    }
+}
+
+
+
+
+.title {
+    color: #7c848e;
+    & :hover {
+        color: white;
+    }
+}

@@ -6,7 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import './navbar.styles.scss';
 
 const Navigation = () => (
- <Navbar collapseOnSelect expand="lg" bg="light" variant='light'>
+ <Navbar className='navi' collapseOnSelect expand="lg" bg="light" variant='light'>
     <Navbar.Brand href="/">
         <img
         src={require("../../logo.svg")}

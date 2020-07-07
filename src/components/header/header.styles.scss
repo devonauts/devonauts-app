@@ -1,8 +1,53 @@
-.navi {
+
+
+.header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  background-color: white;
+  justify-content: space-between;
+  padding: 10px 10px;
+  margin-bottom: 25px;
   box-shadow: 0 3px 13px 0 rgba(14, 9, 73, 0.2),
   0 11px 21px 0 rgba(255, 166, 220, 0.004);
+  & :hover {
+    text-decoration: none;
+    color: grey;
+  }
+
+  .logo-container {
+    padding: 25px;
+   display: flex;
+  }
+
+  .logo {
+    height: 50px;
+    width: 30px;
+
+  }
+  .logo-text {
+    padding-left: 20px;
+    height: 80px;
+    width: 150px;
+    align-self: center;
+  }
+
+  .options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .option {
+      padding: 10px 15px;
+    }
+  }
 }
 
+
+//BUTTONS
 
  .register {
      //Button Link
